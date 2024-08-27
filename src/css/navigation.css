@@ -6,7 +6,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-right: 50px;
+  margin: 0 15px;
   padding-top: 14px;
 
   position: relative;
@@ -16,12 +16,16 @@ nav a {
   color: white;
   text-decoration: none;
   font-size: 18px;
+
+  transition: all ease-in-out 250ms;
 }
 
 nav a:hover {
-  color: #61DBFB;
+  background-color: #61DBFB;
+  color: black;
+  padding: 27px 0;
 }
-
+/*
 nav a::before {
   content: '';
   display: block;
@@ -39,3 +43,4 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+  */
