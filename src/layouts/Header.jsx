@@ -1,7 +1,7 @@
 import '../css/css_layouts/header.css'
 import Nav from '../components/Navigation.jsx';
 
-export default function App() {
+export default function Header() {
   return (
     <header>
       <h1 href="google.com">
