@@ -1,18 +1,14 @@
+import '../css/navigation.css';
+
 export default function Nav() {
   return (
-    <div>
-      <a href="#">
-        About Me
-      </a>
-      <a href="#">
-        Portfolio
-      </a>
-      <a href="#">
-        Contact
-      </a>
-      <a href="#">
-        Resume
-      </a>
-    </div>
+    <nav>
+      <ul>
+        <li><a href="#">ABOUT ME</a></li>
+        <li><a href="#">PORTFOLIO</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">RESUME</a></li>
+      </ul>
+    </nav>
   );
 }

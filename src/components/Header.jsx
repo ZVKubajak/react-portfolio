@@ -1,3 +1,4 @@
+import '../css/header.css'
 import Nav from './Navigation.jsx';
 
 export default function App() {
