@@ -1,4 +1,4 @@
-import Header from './components/Header.jsx';
+import Header from './layouts/Header.jsx';
 
 export default function App() {
   return (
