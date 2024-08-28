@@ -1,5 +1,5 @@
-import Header from './layouts/Header.jsx';
-import Content from './layouts/Content.jsx';
+import Header from './react/layout/Header.jsx';
+import Content from './react/layout/Content.jsx';
 
 export default function App() {
   return (

@@ -1,5 +1,5 @@
-import '../css/css_layouts/header.css'
-import Nav from '../components/Navigation.jsx';
+import '../../css/css_layout/header.css';
+import Nav from '../components/Nav.jsx';
 
 export default function Header() {
   return (

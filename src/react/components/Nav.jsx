@@ -1,4 +1,4 @@
-import '../css/css_components/navigation.css';
+import '../../css/css_components/nav.css';
 
 export default function Nav() {
   return (

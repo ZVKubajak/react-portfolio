@@ -1,5 +1,5 @@
-import '../css/css_layouts/header.css';
-import AboutMe from '../components/AboutMe.jsx';
+import '../../css/css_layout/content.css';
+import AboutMe from '../pages/AboutMe.jsx';
 
 export default function Content() {
   return (
