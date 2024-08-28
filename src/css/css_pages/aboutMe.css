@@ -1,3 +1,14 @@
 section {
   background-color: #313338;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+article {
+  width: 50%;
+}
+
+article p {
+  width: 75%;
 }
