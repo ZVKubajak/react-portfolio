@@ -8,12 +8,54 @@ section {
 
 article {
   width: 50%;
+  padding: 50px;
 }
 
 article h1 {
   color: #f7df1e;
 }
 
+article hr {
+  width: 75%;
+  border: 1px solid #f7df1e;
+}
+
 article p {
   width: 75%;
+  color: white;
+}
+
+article ul {
+  font-size: 18px;
+  color: white;
+}
+
+/* * List Colors * */
+
+#html {
+  color: #f06529;
+}
+
+#css {
+  color: #2965f1;
+}
+
+#javascript {
+  color: #f0db4f;
+}
+
+#typescript {
+  color: #007acc;
+}
+
+#nodejs {
+  color: #3c873a;
+}
+
+#react {
+  color: #61dafb;
+}
+
+#postgresql {
+  color: #336791;
 }

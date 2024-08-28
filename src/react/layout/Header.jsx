@@ -4,7 +4,7 @@ import Nav from '../components/Nav.jsx';
 export default function Header() {
   return (
     <header>
-      <h1 href="google.com">
+      <h1>
         <a href="#"><span>ZVK</span>ubajak</a>
       </h1>
       <Nav />
