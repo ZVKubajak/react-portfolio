@@ -1,12 +1,17 @@
 section {
+  height: 80vh;
   background-color: #313338;
   display: flex;
   justify-content: space-around;
-  padding-top: 50px;
+  padding: 50px;
 }
 
 article {
   width: 50%;
+}
+
+article h1 {
+  color: #f7df1e;
 }
 
 article p {
