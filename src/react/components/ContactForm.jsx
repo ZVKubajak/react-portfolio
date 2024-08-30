@@ -11,7 +11,6 @@ export default function ContactForm() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     const formData = { name, email, message };
-    console.log(formData);
   };
 
   return (

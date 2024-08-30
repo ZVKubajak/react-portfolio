@@ -1,15 +1,17 @@
 import '../../css/css_components/project.css';
 
-export default function Project() {
+import { RiGitRepositoryFill } from "react-icons/ri";
+
+export default function Project(projectData) {
   return (
     <div id="project-card">
-      <img src="https://placehold.co/250x250"></img>
+      <img src={`${projectData.image}`}></img>
+
       <h2>
-        Cash Guardian
+        <a href={`${projectData.appLink}`}>{projectData.title}</a>
       </h2>
-      <p>
-        <a src="https://github.com/ZVKubajak/cash-guardian">Link</a>
-      </p>
+      
+      <a href={`${projectData.repoLink}`}><RiGitRepositoryFill /></a>
     </div>
   );
 }

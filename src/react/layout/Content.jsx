@@ -7,7 +7,7 @@ import Resume from '../pages/Resume.jsx';
 export default function Content() {
   return (
     <main>
-      <Resume />
+      <Portfolio />
     </main>
   );
 }
