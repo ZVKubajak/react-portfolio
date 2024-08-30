@@ -1,9 +1,4 @@
-section {
-  display: block;
-  color: white;
-}
-
-section h1 {
+#portfolio-section {
   text-align: center;
 }
 
@@ -16,5 +11,4 @@ section h1 {
 .project-item {
   flex: 1 1 calc(33.333%);
   box-sizing: border-box;
-  text-align: center;
 }

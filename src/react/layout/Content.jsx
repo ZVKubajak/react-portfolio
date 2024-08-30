@@ -5,7 +5,7 @@ import Portfolio from '../pages/Portfolio.jsx';
 export default function Content() {
   return (
     <main>
-      <Portfolio />
+      <AboutMe />
     </main>
   );
 }

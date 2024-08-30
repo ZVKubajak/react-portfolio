@@ -1,6 +1,4 @@
-section {
-  height: 80vh;
-  background-color: #313338;
+#aboutMe-section {
   display: flex;
   justify-content: space-around;
   padding: 50px;
@@ -27,7 +25,6 @@ article p {
 
 article ul {
   font-size: 18px;
-  color: white;
 }
 
 /* * List Colors * */

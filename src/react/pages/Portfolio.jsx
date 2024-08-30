@@ -3,7 +3,7 @@ import Project from '../components/Project.jsx';
 
 export default function Protfolio() {
   return (
-    <section>
+    <section id="portfolio-section">
       <h1>
         Portfolio
       </h1>
