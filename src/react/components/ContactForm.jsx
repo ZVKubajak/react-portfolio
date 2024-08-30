@@ -1,3 +1,4 @@
+import '../../css/css_components/contactForm.css';
 import { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 
@@ -14,9 +15,9 @@ export default function ContactForm() {
   };
 
   return (
-    <Form onsubmit={handleFormSubmit}>
+    <Form onsubmit={handleFormSubmit} id="form">
 
-      <Form.Group controlId="formName">
+      <Form.Group controlId="formName" class="form-input">
         <Form.Label>Name</Form.Label>
         <Form.Control
           type="text"
@@ -25,7 +26,7 @@ export default function ContactForm() {
         />
       </Form.Group>
 
-      <Form.Group controlId="formEmail">
+      <Form.Group controlId="formEmail" class="form-input">
         <Form.Label>Email</Form.Label>
         <Form.Control
           type="email"
@@ -34,7 +35,7 @@ export default function ContactForm() {
         />
       </Form.Group>
 
-      <Form.Group controlId="formMessage">
+      <Form.Group controlId="formMessage" class="form-input">
         <Form.Label>Message</Form.Label>
         <Form.Control
           type="textarea"
