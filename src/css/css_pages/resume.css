@@ -1,0 +1,59 @@
+#resume-section {
+  text-align: center;
+}
+
+#resume-section hr {
+  width: 10%;
+  margin: 0 auto;
+  border: 2px solid white;
+}
+
+#icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 32px 200px;
+}
+
+/* * Icons * */
+
+.resume-icon {
+  font-size: 80px;
+  color: lightgray;
+
+  transition: all ease-in-out 300ms;
+}
+
+#html-icon:hover {
+  font-size: 100px;
+  color: #f06529;
+}
+
+#css-icon:hover {
+  font-size: 100px;
+  color: #2965f1;
+}
+
+#javascript-icon:hover {
+  font-size: 100px;
+  color: #f0db4f;
+}
+
+#typescript-icon:hover {
+  font-size: 100px;
+  color: #007acc;
+}
+
+#nodejs-icon:hover {
+  font-size: 100px;
+  color: #3c873a;
+}
+
+#react-icon:hover {
+  font-size: 100px;
+  color: #61dafb;
+}
+
+#postgresql-icon:hover {
+  font-size: 100px;
+  color: #336791;
+}

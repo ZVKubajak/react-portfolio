@@ -6,20 +6,20 @@ footer {
   z-index: 1000;
 }
 
-.icon {
+.footer-icon {
   width: 5%;
   cursor: pointer;
   font-size: 40px;
   padding-bottom: 10px;
 }
 
-.icon a {
+.footer-icon a {
   color: #666666;
 
   transition: all ease-in-out 250ms;
 }
 
-.icon a:hover {
+.footer-icon a:hover {
   color: white;
   opacity: 0.8;
 }
