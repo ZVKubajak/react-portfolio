@@ -5,13 +5,26 @@
 #resume-section hr {
   width: 10%;
   margin: 0 auto;
-  border: 2px solid white;
+  border: 2px solid #61DBFB;
 }
 
 #icon-container {
   display: flex;
   justify-content: space-evenly;
   padding: 32px 200px;
+}
+
+#resume-text {
+  font-size: 28px;
+  padding-top: 80px;
+}
+
+#resume-link {
+  color: #61DBFB;
+}
+
+#resume-link:hover {
+  color: #4ca9d8;
 }
 
 /* * Icons * */
@@ -24,36 +37,36 @@
 }
 
 #html-icon:hover {
-  font-size: 100px;
+  font-size: 90px;
   color: #f06529;
 }
 
 #css-icon:hover {
-  font-size: 100px;
+  font-size: 90px;
   color: #2965f1;
 }
 
 #javascript-icon:hover {
-  font-size: 100px;
+  font-size: 90px;
   color: #f0db4f;
 }
 
 #typescript-icon:hover {
-  font-size: 100px;
+  font-size: 90px;
   color: #007acc;
 }
 
 #nodejs-icon:hover {
-  font-size: 100px;
+  font-size: 90px;
   color: #3c873a;
 }
 
 #react-icon:hover {
-  font-size: 100px;
+  font-size: 90px;
   color: #61dafb;
 }
 
 #postgresql-icon:hover {
-  font-size: 100px;
+  font-size: 90px;
   color: #336791;
 }

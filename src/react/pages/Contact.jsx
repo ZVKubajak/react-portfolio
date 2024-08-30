@@ -9,6 +9,8 @@ export default function Contact() {
         Contact Me
       </h1>
 
+      <hr></hr>
+
       <ContactForm />
 
     </section>

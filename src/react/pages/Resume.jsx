@@ -46,6 +46,8 @@ export default function Resume() {
         </div>
       </div>
 
+      <p id="resume-text">Download my resume <a id="resume-link" href="#">here</a>.</p>
+
     </section>
   );
 } 

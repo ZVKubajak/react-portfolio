@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+#portfolio-section hr {
+  width: 15%;
+  margin: 0 auto;
+  border: 2px solid #61DBFB;
+}
+
 #project-container {
   display: flex;
   flex-wrap: wrap;
