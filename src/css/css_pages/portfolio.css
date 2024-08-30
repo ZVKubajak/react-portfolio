@@ -1,0 +1,20 @@
+section {
+  display: block;
+  color: white;
+}
+
+section h1 {
+  text-align: center;
+}
+
+#project-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.project-item {
+  flex: 1 1 calc(33.333%);
+  box-sizing: border-box;
+  text-align: center;
+}
