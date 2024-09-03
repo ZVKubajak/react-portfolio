@@ -1,39 +1,39 @@
 const projectData = [
   {
-    title: "Project 1",
+    title: "Cash Guardian",
     image: "https://placehold.co/250x250",
-    appLink: "#",
-    repoLink: "#"
+    appLink: "https://zvkubajak.github.io/cash-guardian",
+    repoLink: "https://github.com/ZVKubajak/cash-guardian"
   },
   {
-    title: "Project 2",
+    title: "Lifeguard Rotation Tracker",
     image: "https://placehold.co/250x250",
-    appLink: "#",
-    repoLink: "#"
+    appLink: "https://zvkubajak.github.io/Lifeguard-Rotation-Tracker",
+    repoLink: "https://github.com/ZVKubajak/Lifeguard-Rotation-Tracker"
   },
   {
-    title: "Project 3",
+    title: "React Portfolio",
     image: "https://placehold.co/250x250",
     appLink: "#",
-    repoLink: "#"
+    repoLink: "https://github.com/ZVKubajak/react-portfolio"
   },
   {
-    title: "Project 4",
+    title: "README Generator",
     image: "https://placehold.co/250x250",
     appLink: "#",
-    repoLink: "#"
+    repoLink: "https://github.com/ZVKubajak/readme-generator"
   },
   {
-    title: "Project 5",
+    title: "Vehicle Builder",
     image: "https://placehold.co/250x250",
     appLink: "#",
-    repoLink: "#"
+    repoLink: "https://github.com/ZVKubajak/vehicle-builder"
   },
   {
-    title: "Project 6",
+    title: "Progress Pro",
     image: "https://placehold.co/250x250",
     appLink: "#",
-    repoLink: "#"
+    repoLink: "https://github.com/ZVKubajak/progress-pro"
   }
 ]
 
