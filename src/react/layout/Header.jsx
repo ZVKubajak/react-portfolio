@@ -3,14 +3,12 @@ import Nav from '../components/Nav.jsx';
 
 export default function Header() {
   return (
-    <header>
-      
-      <h1>
-        <a href="#"><span>ZVK</span>ubajak</a>
-      </h1>
+    <header> 
+
+      <h1><span>ZVK</span>ubajak</h1>
 
       <Nav />
-
+      
     </header>
   );
 }

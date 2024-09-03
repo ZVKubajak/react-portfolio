@@ -10,15 +10,6 @@ header {
   z-index: 1000;
 }
 
-header h1 {
-  cursor: pointer;
-}
-
-header a {
-  text-decoration: none;
-  color: white;
-}
-
 header span {
   color: #61DBFB;
 }

@@ -12,7 +12,9 @@ export default function Nav() {
             to="/"
             className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
           >
-            ABOUT ME
+            <div>
+              ABOUT ME
+            </div>
           </Link>
         </li>
         <li>
@@ -20,7 +22,9 @@ export default function Nav() {
             to="/Portfolio"
             className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
           >
-            PORTFOLIO
+            <div>
+              PORTFOLIO
+            </div>
           </Link>
         </li>
         <li>
@@ -28,7 +32,9 @@ export default function Nav() {
             to="/Contact"
             className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
           >
-            CONTACT
+            <div>
+              CONTACT
+            </div>
           </Link>
         </li>
         <li>
@@ -36,7 +42,9 @@ export default function Nav() {
             to="/Resume"
             className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
           >
-            RESUME
+            <div>
+              RESUME
+            </div>
           </Link>
         </li>
       </ul>

@@ -7,21 +7,22 @@ nav ul {
 nav li {
   display: inline-block;
   margin: 0 15px;
-  padding-top: 14px;
+  padding-top: 10px;
 
   position: relative;
 }
 
-nav a {
+nav div {
   color: white;
   text-decoration: none;
   font-size: 18px;
+  padding: 5px;
+  border-radius: 10px;
 
   transition: all ease-in-out 250ms;
 }
 
-nav a:hover {
+nav div:hover {
   background-color: #61DBFB;
   color: black;
-  padding: 27px 0;
 }
