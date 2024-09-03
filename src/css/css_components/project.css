@@ -1,3 +1,31 @@
 #project-card {
   display: block;
+  padding-bottom: 28px;
+}
+
+#project-title {
+  padding-top: 10px;
+}
+
+#project-app-link {
+  text-decoration: none;
+  color: white;
+
+  transition: all ease-in-out 300ms;
+}
+
+#project-app-link:hover {
+  color: lightgray;
+}
+
+#project-repo-link {
+  line-height: 1;
+  font-size: 32px;
+  color: #61DBFB;
+
+  transition: all ease-in-out 300ms;
+}
+
+#project-repo-link:hover {
+  color: #4ca9d8;
 }
